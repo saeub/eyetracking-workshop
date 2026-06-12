@@ -1,0 +1,7 @@
+name: onestop
+type: OneStop
+
+display_size: [1000, 650]
+font_size: 20
+margin: 40
+line_spacing: 2.0

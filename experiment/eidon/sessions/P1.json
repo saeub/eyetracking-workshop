@@ -1,0 +1,332 @@
+{
+    "stages": [
+        {
+            "$name": "setup",
+            "$type": "Setup"
+        },
+        {
+            "$name": "instructions",
+            "$type": "StimulusPage",
+            "imgpath": "stimuli/instructions.png",
+            "continue_key": "SPACE"
+        },
+        {
+            "$name": "paragraph0_0.drift",
+            "$type": "DriftCorrect",
+            "location": [
+                20,
+                205
+            ]
+        },
+        {
+            "$name": "paragraph0_0.text",
+            "$type": "StimulusPage",
+            "imgpath": "stimuli/paragraph0_0.text.png",
+            "continue_key": "SPACE"
+        },
+        {
+            "$name": "paragraph0_0.question",
+            "$type": "MultipleChoiceQuestion",
+            "imgpath": "stimuli/paragraph0_0.question.png",
+            "option_keys": [
+                "UP",
+                "LEFT",
+                "RIGHT",
+                "DOWN"
+            ],
+            "option_boxes": [
+                [
+                    270.0,
+                    213.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    40.0,
+                    325.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    500.0,
+                    325.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    270.0,
+                    437.0,
+                    460.0,
+                    56.0
+                ]
+            ],
+            "confirm_key": "SPACE"
+        },
+        {
+            "$name": "paragraph0_1.drift",
+            "$type": "DriftCorrect",
+            "location": [
+                20,
+                177
+            ]
+        },
+        {
+            "$name": "paragraph0_1.text",
+            "$type": "StimulusPage",
+            "imgpath": "stimuli/paragraph0_1.text.png",
+            "continue_key": "SPACE"
+        },
+        {
+            "$name": "paragraph0_1.question",
+            "$type": "MultipleChoiceQuestion",
+            "imgpath": "stimuli/paragraph0_1.question.png",
+            "option_keys": [
+                "UP",
+                "LEFT",
+                "RIGHT",
+                "DOWN"
+            ],
+            "option_boxes": [
+                [
+                    270.0,
+                    213.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    40.0,
+                    325.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    500.0,
+                    325.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    270.0,
+                    437.0,
+                    460.0,
+                    56.0
+                ]
+            ],
+            "confirm_key": "SPACE"
+        },
+        {
+            "$name": "paragraph0_2.drift",
+            "$type": "DriftCorrect",
+            "location": [
+                20,
+                177
+            ]
+        },
+        {
+            "$name": "paragraph0_2.text",
+            "$type": "StimulusPage",
+            "imgpath": "stimuli/paragraph0_2.text.png",
+            "continue_key": "SPACE"
+        },
+        {
+            "$name": "paragraph0_2.question",
+            "$type": "MultipleChoiceQuestion",
+            "imgpath": "stimuli/paragraph0_2.question.png",
+            "option_keys": [
+                "UP",
+                "LEFT",
+                "RIGHT",
+                "DOWN"
+            ],
+            "option_boxes": [
+                [
+                    270.0,
+                    213.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    40.0,
+                    325.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    500.0,
+                    325.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    270.0,
+                    437.0,
+                    460.0,
+                    56.0
+                ]
+            ],
+            "confirm_key": "SPACE"
+        },
+        {
+            "$name": "paragraph0_3.drift",
+            "$type": "DriftCorrect",
+            "location": [
+                20,
+                121
+            ]
+        },
+        {
+            "$name": "paragraph0_3.text",
+            "$type": "StimulusPage",
+            "imgpath": "stimuli/paragraph0_3.text.png",
+            "continue_key": "SPACE"
+        },
+        {
+            "$name": "paragraph0_3.question",
+            "$type": "MultipleChoiceQuestion",
+            "imgpath": "stimuli/paragraph0_3.question.png",
+            "option_keys": [
+                "UP",
+                "LEFT",
+                "RIGHT",
+                "DOWN"
+            ],
+            "option_boxes": [
+                [
+                    270.0,
+                    213.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    40.0,
+                    325.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    500.0,
+                    325.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    270.0,
+                    437.0,
+                    460.0,
+                    56.0
+                ]
+            ],
+            "confirm_key": "SPACE"
+        },
+        {
+            "$name": "paragraph0_4.drift",
+            "$type": "DriftCorrect",
+            "location": [
+                20,
+                93
+            ]
+        },
+        {
+            "$name": "paragraph0_4.text",
+            "$type": "StimulusPage",
+            "imgpath": "stimuli/paragraph0_4.text.png",
+            "continue_key": "SPACE"
+        },
+        {
+            "$name": "paragraph0_4.question",
+            "$type": "MultipleChoiceQuestion",
+            "imgpath": "stimuli/paragraph0_4.question.png",
+            "option_keys": [
+                "UP",
+                "LEFT",
+                "RIGHT",
+                "DOWN"
+            ],
+            "option_boxes": [
+                [
+                    270.0,
+                    213.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    40.0,
+                    325.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    500.0,
+                    325.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    270.0,
+                    437.0,
+                    460.0,
+                    56.0
+                ]
+            ],
+            "confirm_key": "SPACE"
+        },
+        {
+            "$name": "paragraph0_5.drift",
+            "$type": "DriftCorrect",
+            "location": [
+                20,
+                205
+            ]
+        },
+        {
+            "$name": "paragraph0_5.text",
+            "$type": "StimulusPage",
+            "imgpath": "stimuli/paragraph0_5.text.png",
+            "continue_key": "SPACE"
+        },
+        {
+            "$name": "paragraph0_5.question",
+            "$type": "MultipleChoiceQuestion",
+            "imgpath": "stimuli/paragraph0_5.question.png",
+            "option_keys": [
+                "UP",
+                "LEFT",
+                "RIGHT",
+                "DOWN"
+            ],
+            "option_boxes": [
+                [
+                    270.0,
+                    213.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    40.0,
+                    325.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    500.0,
+                    325.0,
+                    460.0,
+                    56.0
+                ],
+                [
+                    270.0,
+                    437.0,
+                    460.0,
+                    56.0
+                ]
+            ],
+            "confirm_key": "SPACE"
+        },
+        {
+            "$name": "end",
+            "$type": "StimulusPage",
+            "imgpath": "stimuli/end.png",
+            "continue_key": "SPACE"
+        }
+    ]
+}
