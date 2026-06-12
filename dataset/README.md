@@ -10,13 +10,14 @@ In this exercise, you will explore a small subset of the [OneStop dataset](https
 
 `paragraph_dwell_times.csv` contains dwell times for word-level areas of interest (AOIs) on the **paragraph screen**. It is a table with the following columns:
 
-| Column name      | Description                                                                                      |
-| ---------------- | ------------------------------------------------------------------------------------------------ |
-| `participant_id` | The identifier of the participant                                                                |
-| `paragraph_id`   | The identifier of the paragraph being read (unique within the paragraph)                         |
-| `aoi_id`         | The identifier of the AOI (unique within the question)                                           |
-| `aoi_text`       | The text in the AOI that is being fixated                                                        |
-| `dwell_time`     | The total time spent fixating the AOI (in milliseconds)                                          |
+| Column name      | Description                                                              |
+| ---------------- | ------------------------------------------------------------------------ |
+| `participant_id` | The identifier of the participant                                        |
+| `paragraph_id`   | The identifier of the paragraph being read (unique within the paragraph) |
+| `aoi_id`         | The identifier of the AOI (unique within the question)                   |
+| `aoi_text`       | The word in the AOI that is being fixated                                |
+| `word_frequency` | The lexical frequency of the word in the AOI (Zipf scale)                |
+| `dwell_time`     | The total time spent fixating the AOI (in milliseconds)                  |
 
 `question_dwell_times.csv` contains dwell times for word-level areas of interest (AOIs) on the **question screen**. It is a table with the following columns:
 
@@ -27,7 +28,7 @@ In this exercise, you will explore a small subset of the [OneStop dataset](https
 | `region`         | The region that is being fixated (`question`, `answer_A`, `answer_B`, `answer_C`, or `answer_D`) |
 | `region_text`    | The text in the region that is being fixated (either a question or an answer option)             |
 | `aoi_id`         | The identifier of the AOI (unique within the question)                                           |
-| `aoi_text`       | The text in the AOI that is being fixated                                                        |
+| `aoi_text`       | The word in the AOI that is being fixated                                                        |
 | `dwell_time`     | The total time spent fixating the AOI (in milliseconds)                                          |
 
 The questions are structured according to the [STARC framework](https://doi.org/10.18653/v1/2020.acl-main.507), which requires the four answer options to follow a specific pattern:
