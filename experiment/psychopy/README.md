@@ -19,3 +19,5 @@ Make sure that the switch in the toolbar is set to "Run" (not "Pilot"):
 ![](toolbar.png)
 
 Then, click the green ▶️ button above "Desktop". After a few seconds, the experiment should start in full-screen mode.
+
+> **NOTE:** On MacOS, you will be asked for permission to run the experiment. The window may pop up behind the experiment, so if you get any errors, try looking for the permission dialog window.
