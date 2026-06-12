@@ -2,6 +2,10 @@
 
 In this exercise, you will explore a small subset of the [OneStop dataset](https://lacclab.github.io/OneStop-Eye-Movements/index.html).
 
+### Download this repository
+
+[Download this repository as a ZIP file](https://github.com/saeub/eyetracking-workshop/archive/refs/heads/main.zip) and extract its contents. Make sure you remember where the folder `eyetracking-workshop-main` is located on your file system.
+
 ### Data structure
 
 `paragraph_dwell_times.csv` contains dwell times for word-level areas of interest (AOIs) on the **paragraph screen**. It is a table with the following columns:
