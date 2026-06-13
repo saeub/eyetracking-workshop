@@ -27,7 +27,7 @@ class OneStop(ExperimentType):
             vertical_align="center",
             background_color=self.background_color,
         )
-        instructions_image.save(experiment_path / "stimuli", "instructions")
+        instructions_image.save(experiment_path, "instructions")
 
         (end_image,) = stimuli.generate_text_pages(
             "This is the end of the experiment. Thank you for your participation!",
@@ -39,7 +39,7 @@ class OneStop(ExperimentType):
             vertical_align="center",
             background_color=self.background_color,
         )
-        end_image.save(experiment_path / "stimuli", "end")
+        end_image.save(experiment_path, "end")
 
         trial_stages = []
         for article_id, article in enumerate(data):
@@ -63,7 +63,7 @@ class OneStop(ExperimentType):
                     background_color=self.background_color,
                 )
                 text_image.save(
-                    experiment_path / "stimuli",
+                    experiment_path,
                     f"{paragraph_name}.text",
                 )
                 text_start_location = (
@@ -91,7 +91,7 @@ class OneStop(ExperimentType):
 
                 question_image = self._generate_mcq_page(question, answers)
                 question_image.save(
-                    experiment_path / "stimuli",
+                    experiment_path,
                     f"{paragraph_name}.question",
                 )
                 trial_stages.append(
