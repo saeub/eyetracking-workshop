@@ -4,6 +4,8 @@ Authors: Andreas Säuberli, Gabrielle Gaudeau, Hongyi Yang
 
 This repository contains the material used during the hands-on part of the workshop.
 
+> To follow the workshop, you will need **a laptop with your preferred software for data analysis installed** (e.g. Excel, R, Python, Stata, SPSS, or other software packages will work).
+
 ### [➡️ Data analysis tasks](dataset/README.md)
 
 The source of the material is the [OneStop dataset](https://lacclab.github.io/OneStop-Eye-Movements/index.html) by [Berzak et al., 2025](https://doi.org/10.1038/s41597-025-06272-2). The original dataset contains eye-tracking data from 360 L1 participants reading a total of 162 English paragraphs and answering multiple-choice comprehension questions. The experiment and dataset for the workshop only include six paragraphs with one question each.
