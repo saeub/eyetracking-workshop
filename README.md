@@ -28,3 +28,5 @@ If you do not know how to use a terminal / command-line interface, we recommend 
 The dataset is a subset of OneStop that includes word-level dwell time as an eye-tracking measure. See the instructions for more details and exercise tasks.
 
 ### [➡️ Instructions for analyzing the dataset](dataset/README.md)
+
+## [➡️ Further reading](literature.md)
