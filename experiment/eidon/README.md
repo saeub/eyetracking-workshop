@@ -6,11 +6,15 @@
 
 ### 2. Install _eidon_
 
+You need Python 3.10 or newer to run the experiment.
+
 The easiest way to install _eidon_ is using `pip` via the terminal. Creating a virtual environment is recommended.
 
 ```bash
 pip install eidon
 ```
+
+> Optional: To run the experiment with an EyeLink eye tracker, you also need to run `pip install sr-research-pylink`. Note that Python versions newer than 3.12 are currently not supported by EyeLink.
 
 ### 3. Run the experiment
 
